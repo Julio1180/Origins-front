@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@400;700&display=swap);
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+
+
+
+
+}
+
+.galeria {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5px 10px 6px;
+    border: 5px solid;
+    background-color: black;
+
+
+
+
+
+}
+
+.galeria article {
+    width: 20%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    border: 10px solid white;
+
+
+
+
+
+
+
+}

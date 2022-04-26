@@ -1,0 +1,81 @@
+<div class="container">
+    <form [formGroup]="booking" (ngSubmit)="onSubmit()">
+        <h1>Book your Trainner Sessions</h1>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" formControlName="nombre">
+        </div>
+        <div class="form-group">
+            <label>Surname</label>
+            <input type="text" class="form-control" formControlName="apellidos">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" formControlName="email">
+        </div>
+        <div class="form-group">
+            <label>Date</label>
+            <input type="date" class="form-control" formControlName="fecha">
+        </div>
+        <div class="form-group">
+            <label>Level</label>
+            <select formControlName="level" class="form-control">
+                <option value="Choose_experience">Choose_experience</option>
+                <option value="Beginners">Beginners</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Pro">Pro</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Trainer</label>
+            <select formControlName="Trainer" class="form-control">
+                <option value="Choose_trainer">Choose_Trainer</option>
+                <option value="Julian Macias">Julian Macias</option>
+                <option value="Enrique Pacheco">Enrique Pacheco</option>
+
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Equipment</label>
+            <select formControlName="Equipment" class="form-control">
+                <option value="Choose_options">Choose_Options</option>
+                <option value="complete_equipment">Complete_equipment</option>
+                <option value="protections">Protections</option>
+                <option value="surfskate">Surfskate</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Skateparks</label>
+            <select formControlName="Skateparks" class="form-control">
+                <option value="Select_Skatepark">Select_Skatepark</option>
+                <option value="Skatepark_madrid_rio">Skatepark_Madrid_Rio</option>
+                <option value="Skatepark_las_rozas">Skatepark_Las_Rozas</option>
+                <option value="Skatepark_ongravity">Skatepark_Ongravity</option>
+                <option value="Skatepark_amposta">Skatepark_Amposta</option>
+                <option value="Skatepark_tres_cantos">Skatepark_Tres_Cantos</option>
+                <option value="Skatepark_boadilla_del_monte">Skatepark_Boadilla_del_Monte</option>
+                <option value="Skatepark_colmenar_viejo">Skatepark_Colmenar_Viejo</option>
+                <option value="Skatepark_fuenlabrada">Skatepark_Fuenlabrada</option>
+                <option value="Skatepark_fuencarral">Skatepark_Fuencarral</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Surfspots</label>
+            <select formControlName="Surfspots" class="form-control">
+                <option value="Select_Surfspots">Select_Surfspots</option>
+                <option value="Playa_meron">Playa_Meron</option>
+                <option value="Playa_suances">Playa_Suances</option>
+                <option value="Playa_santander">Playa_Santander</option>
+                <option value="Playa_san_lorenzo">Playa_San_Lorenzo</option>
+                <option value="Playa_rodiles">Playa_Rodiles</option>
+                <option value="Playa_salinas">Playa_Salinas</option>
+                <option value="Playa_somo">Playa_Somo</option>
+                <option value="Playa_noja">Playa_Noja</option>
+                <option value="Playa_laredo">Playa_Laredo</option>
+            </select>
+        </div>
+
+
+        <input type="submit" value="Send">
+    </form>
+</div>

@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@400;700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em
+}
+
+h1,
+h2 {
+    font-family: 'Libre Baskerville', serif
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+footer,
+header {
+    background-color: #000;
+    color: #fff
+}
+
+header {
+    text-align: center;
+    padding: 60px 0 120px 0
+}
+
+header :is(h2, p) {
+    color: #aaa
+}
+
+main {
+    padding-bottom: 30px
+}
+
+.wrapper {
+    background-image: url(/assets/images/fondo/olas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container {
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto
+}

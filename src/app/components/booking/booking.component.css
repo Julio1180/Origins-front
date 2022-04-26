@@ -1,0 +1,33 @@
+.container {
+    max-width: 900px;
+
+    color: black;
+
+
+
+
+
+}
+
+.header {
+
+    box-sizing: border-box;
+    width: 50%;
+    height: 250px;
+    border: 5px solid rgb(7, 7, 7);
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+
+
+
+}
+
+.input {
+    height: 30px;
+    font-size: 20px;
+
+
+
+}

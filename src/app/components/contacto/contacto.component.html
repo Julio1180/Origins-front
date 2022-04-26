@@ -1,0 +1,29 @@
+<div class="container">
+
+    <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+
+        <h1>Newsletters</h1>
+        <h2>Originssurfskate@gmail.com
+            <i class=""></i>
+        </h2>
+        <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fab fa-instagram"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fab fa-youtube"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fab fa-google"></i>
+        </button>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" formControlName="email">
+        </div>
+        <input type="submit" value="Sign">
+    </form>
+
+
+</div>

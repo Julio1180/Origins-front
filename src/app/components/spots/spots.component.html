@@ -1,0 +1,15 @@
+<agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng" *ngIf="located">
+        <agm-info-window>
+            Mi Posicion
+        </agm-info-window>
+    </agm-marker>
+    <agm-marker *ngFor="let spots of arrSpots" [latitude]="spots.latitud" [longitude]="spots.longitud" [agmFitBounds]="true"></agm-marker>
+</agm-map>
+<button (click)="getCurrentPosition()">GET CURRENT POSITION</button>
+
+<div class="form-group">
+    <label>Guide of Surfspots & Skatepark</label>
+    <input type="text">
+    <button>SEARCH</button>
+</div>

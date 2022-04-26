@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@400;700&display=swap);
+
+img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+
+
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.video video {
+
+    width: 300px;
+    height: 500px;
+}
